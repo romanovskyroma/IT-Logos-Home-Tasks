@@ -1,0 +1,73 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   margin: 35px auto;
+   width: 750px;
+   outline: 15px inset rgb(40, 40, 252);
+}
+
+.letter {
+   width: 150px;
+   height: 100%;
+   display: inline-block;
+   text-align: center;
+   font-size: 150px;
+   margin-right: -4px;
+   transition-duration: 0.8s;
+}
+
+.r {
+   background: linear-gradient(-45deg, rgb(37, 123, 252), yellow);
+   color: red;
+
+}
+
+.o {
+   background: linear-gradient(to top, rgb(204, 26, 240), rgb(58, 250, 58));
+   color: rgb(24, 240, 255);
+
+}
+
+.m {
+   background: linear-gradient(to top, rgb(22, 236, 252), rgb(250, 61, 28));
+   color: rgb(255, 180, 19);
+}
+
+.a {
+   background: linear-gradient(to top, rgb(255, 1, 1), rgb(50, 253, 23));
+   color: #C60CE9;
+}
+
+.n {
+   background: linear-gradient(45deg, rgb(248, 28, 64), rgb(48, 114, 255));
+   color: rgb(0, 219, 128);
+}
+
+.r:hover {
+   background: linear-gradient(to top, yellow, rgb(37, 123, 252));
+   color: rgb(83, 255, 41);
+}
+
+.o:hover {
+   background: linear-gradient(to top, rgb(58, 250, 58), rgb(204, 26, 240));
+   color: rgb(255, 106, 20);
+}
+
+.m:hover {
+   background: linear-gradient(to top, rgb(250, 61, 28), rgb(22, 236, 252));
+   color: rgb(19, 255, 164);
+}
+
+.a:hover {
+   background: linear-gradient(to top, rgb(50, 253, 23), rgb(255, 1, 1));
+   color: rgb(28, 183, 255);
+}
+
+.n:hover {
+   background: linear-gradient(to top, rgb(48, 114, 255), rgb(248, 28, 64));
+   color: rgb(231, 0, 200);
+}

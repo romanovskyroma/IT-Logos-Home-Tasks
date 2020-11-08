@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>HW15-2</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="leftSide">
+            <form name="f1">
+                <h4>Login</h4>
+                <input class="inptxt" type="text" name="login" placeholder="Enter login" required>
+
+                <h4>Password</h4>
+                <input class="inptxt" type="password" name="password" placeholder="Enter password" required>
+
+                <h4>Email address</h4>
+                <input class="inptxt" type="email" name="email" placeholder="Enter email" required>
+
+                <input class="btn" type="button" name="add" value="Add user" disabled>
+                <input class="btn" type="button" name="edit" value="Edit user" hidden>
+            </form>
+        </div>
+        <div class="rightSide">
+            <table class="table">
+                <thead class="titleTable">
+                    <tr>
+                        <th>#</th>
+                        <th>Login</th>
+                        <th>Password</th>
+                        <th>Email</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="usersList">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 10px auto;
+    outline: 2px dashed red;
+    width: 950px;
+    height: 200px;
+    position: relative;
+    padding: 10px;
+}
+.longBlock{
+    width: 25px;
+    height: 180px;
+    position: absolute;
+}
+.b9{
+    background-color: yellow;
+    left: 93%;
+    transform: rotateZ(-15deg);
+}
+.b8{
+    background-color: yellow;
+    left: 87%;
+    transform: rotateZ(15deg);
+}
+.b7{
+    background-color: blue;
+    left: 80%;
+}
+.b6{
+    background-color: blue;
+    left: 70%;
+}
+.b5{
+    background-color: blue;
+    left: 48%;
+    transform: rotateZ(-15deg);
+}
+.b4{
+    background-color: blue;
+    left: 42%;
+    transform: rotateZ(15deg);
+}
+.b3{
+    background-color: yellow;
+    left: 26%;
+    
+}
+.b2{
+    background-color: blue;
+    left: 15%;
+}
+.b1{
+    background-color: yellow;
+    left: 11%;
+}
+.mediumBlock{
+    width: 25px;
+    height: 75px;
+    position: absolute;
+}
+.mb1{
+    background-color: yellow;
+    left: 90%;
+    top: 35%;
+    transform: rotateZ(90deg);
+}
+.mb2{
+    background-color: blue;
+    left: 75%;
+    top: 35%;
+    transform: rotateZ(90deg);
+}
+.mb3{
+    background-color: blue;
+    left: 45%;
+    top: 35%;
+    transform: rotateZ(90deg);
+}
+.mb4{
+    background-color: yellow;
+    left: 34%;
+}
+.mb5{
+    background-color: yellow;
+    left: 2%;
+}
+.mb6{
+    background-color: yellow;
+    left: 5%;
+    top: 70%;
+    transform: rotateZ(90deg);
+}
+.smallBlock{
+    width: 25px;
+    height: 65px;
+    position: absolute;
+    background-color: yellow;
+}
+.sm1{
+    transform: rotateZ(90deg);
+    left: 6%;
+    top: 20%;
+}
+.sm2{
+    transform: rotateZ(90deg);
+    left: 31%;
+    top: 20%;
+}
+.sm3{
+    transform: rotateZ(90deg);
+    left: 31%;
+    top: -5%;
+}
+.lgBlock{
+    width: 25px;
+    height: 120px;
+    position: absolute;
+}
+.lgb1{
+    transform: rotateZ(30deg);
+    left: 18%;
+    background-color: blue;
+}
+.lgb2{
+    transform: rotateZ(150deg);
+    left: 18%;
+    top: 36%;
+    background-color: blue;
+}
+.lgb3{
+    height: 145px;
+    left: 60%;
+    top: 22%;
+    background-color: yellow;
+}
+.point1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: yellow;
+    left: 56%;
+}
+.point2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: yellow;
+    left: 64%;
+}
+

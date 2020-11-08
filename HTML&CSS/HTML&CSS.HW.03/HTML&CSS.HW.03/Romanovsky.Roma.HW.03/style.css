@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px auto 0;
+    padding: 0;
+    outline: 2px solid black;
+    border-bottom: none;
+    width: 800px;
+}
+
+.header {
+    height: 150px;
+    background-color: rgb(240, 206, 156);
+    padding-top: 33px;
+    box-sizing: border-box;
+}
+
+.headerMedium {
+    width: 600px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: rgb(214, 149, 70);
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.headerSmall {
+    width: 250px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: rgb(243, 225, 174);
+}
+
+.siteName {
+    text-align: center;
+}
+
+.menuSection {
+    width: 160px;
+    float: left;
+    height: 75px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menuSection1 {
+    background-color: rgb(98, 139, 120);
+}
+
+.menuSection2 {
+    background-color: rgb(100, 174, 235);
+}
+
+.menuSection3 {
+    background-color: rgb(216, 206, 151);
+}
+
+.menuSection4 {
+    background-color: rgb(231, 116, 221);
+}
+
+.menuSection5 {
+    background-color: rgba(51, 23, 68, 0.589);
+}
+
+.content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content{
+    font-size: 18px;
+}
+
+.contentLeft {
+    padding-top: 10px;
+    width: 265px;
+    height: auto;
+    min-height: 250px;
+    background-color: green;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contentMedium {
+    width: 270px;
+    height: auto;
+    min-height: 250px;
+    box-sizing: border-box;
+    background-color: rgb(196, 226, 196);
+    float: left;
+}
+
+.contentRight {
+    width: 265px;
+    height: auto;
+    min-height: 250px;
+    box-sizing: border-box;
+    background-color: rgb(196, 226, 224);
+    float: left;
+    text-align: center;
+}
+
+.contentLeftText {
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: rgb(195, 195, 250);
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contentLeftBigBlock {
+    margin: 10px auto 0;
+    width: 130px;
+    height: 200px;
+    text-align: center;
+}
+
+.contentLeftBigBlockTop {
+    max-width: initial;
+    background-color: rgb(143, 30, 54);
+    height: 45px;
+}
+
+.contentLeftBigBlockBottom {
+    max-width: initial;
+    height: 200px;
+    background-color: aqua;
+}
+
+.contentLeftBigBlockBottomLeft {
+    width: 65px;
+    background-color: blue;
+    height: 200px;
+    float: left;
+}
+
+.contentMediumTopBlock {
+    width: 270px;
+    background-color: blueviolet;
+    height: 30px;
+    text-align: center;
+}
+
+.contentMediumBottomBlock {
+    width: 270px;
+    background-color: rgb(176, 129, 221);
+    height: 270px;
+    text-align: center;
+}
+
+.contentMediumBottomBlockLeft {
+    width: 90px;
+    height: 270px;
+    background-color: aqua;
+    text-align: center;
+    float: left;
+}
+
+.contentMediumBottomBlockLeftTop {
+    width: 90px;
+    height: 60px;
+    background-color: brown;
+}
+
+.contentMediumBottomBlockLeftBottom {
+    height: 210px;
+    background-color: brown;
+}
+
+.contentMediumBottomBlockMedium {
+    width: 90px;
+    height: 270px;
+    background-color: rgb(100, 207, 74);
+    text-align: center;
+    float: left;
+}
+
+.contentMediumBottomBlockRight {
+    width: 90px;
+    height: 270px;
+    background-color: rgb(143, 177, 63);
+    text-align: center;
+    float: left;
+}
+
+.contentMediumBottomBlockLeftB1 {
+    width: 45px;
+    height: 210px;
+    background-color: rgb(41, 104, 155);
+    text-align: center;
+    float: left;
+}
+
+.contentMediumBottomBlockLeftB2 {
+    margin-top: 110px;
+    width: 45px;
+    height: 100px;
+    background-color: rgb(153, 226, 69);
+    text-align: center;
+    float: left;
+}
+
+.contentMediumBottomBlockMediumC {
+    height: 62px;
+}
+
+.colorC1 {
+    background-color: blue;
+}
+
+.colorC2 {
+    background-color: blueviolet;
+}
+
+.colorC3 {
+    background-color: rgb(247, 243, 14);
+}
+
+.contentMediumBottomBlockMediumC4 {
+    height: 84px;
+    background-color: bisque;
+}
+.contentMediumBottomBlockMediumC4Left{
+    width: 45px;
+    background-color: royalblue;
+    height: inherit;
+    float: left;
+}
+.contentMediumBottomBlockMediumC4Right{
+    width: 45px;
+    background-color: rgb(64, 196, 103);
+    height: inherit;
+    float: right;
+}
+.contentMediumBottomBlockRightTop{
+    width: 90px;
+    height: 75px;
+    background-color: bisque;
+}
+.contentMediumBottomBlockRightMedium{
+    width: 90px;
+    height: 75px;
+    background-color: rgb(93, 102, 184);
+}
+.contentMediumBottomBlockRightBottom{
+    width: 90px;
+    height: 120px;
+    background-color: rgb(89, 223, 216);
+}
+.contentMediumBottomBlockRightBottomImg{
+    width: 20px;
+}
+.contentRightTop{
+    width: 265px;
+    height: 120px;
+    background-color: rgb(226, 148, 53);
+}
+.contentRightBottom{
+    width: 265px;
+    height: 180px;
+    background-color: rgb(85, 255, 34);
+}
+.contentRightMenu{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(250, 65, 74);
+}
+.contentRightMedium{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(226, 47, 116);
+    padding-top: 8px;
+    padding-left: 70px;
+}
+.contentRightBattomSmall{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(250, 65, 210);
+}
+.contentRightMenu1{
+    width: 88px;
+    height: inherit;
+    background-color: rgb(253, 210, 17);
+    float: left;
+}
+.contentRightMenu2{
+    width: 89px;
+    height: inherit;
+    background-color: rgb(57, 245, 245);
+    float: left;
+}
+.contentRightMenu3{
+    width: 88px;
+    height: inherit;
+    background-color: rgb(205, 46, 245);
+    float: left;
+}
+.contentRightMediumBigBlock{
+    width: 130px;
+    height: 25px;
+    background-color: red;
+    padding-top: 20px;
+}
+.contentRightMediumSmallBlock{
+    width: 15px;
+    height: 5px;
+    background-color: black;
+    margin: 0 auto;
+}
+.contentRightBottomSmall{
+    height: 40px;
+    background-color: rgb(11, 156, 252);
+}
+.contentRightBottomLeft{
+    width: 90px;
+    height: 180px;
+    background-color: bisque;
+    float: left;
+}
+.contentRightBottomRight{
+    width: 175px;
+    height: 180px;
+    background-color: rgb(247, 184, 108);
+    float: right;
+}
+.contentRightBottomRightTop{
+    height: 60px;
+    width: inherit;
+    background-color: brown;
+}
+.contentRightBottomRightMedium{
+    height: 60px;
+    width: inherit;
+    background-color: rgb(252, 135, 99);
+}
+.contentRightBottomRightBottom{
+    height: 60px;
+    width: inherit;
+    background-color: rgb(101, 238, 59);
+}
+.contentRightBottomRightMedium1{
+    width: 88px;
+    height: inherit;
+    background-color: aqua;
+    float: left;
+}
+.contentRightBottomRightMedium2{
+    width: 87px;
+    height: inherit;
+    background-color: rgb(9, 126, 126);
+    float: right;
+}
+
+
+
+.footer {
+    height: 60px;
+    box-sizing: border-box;
+    background-color: brown;
+    text-align: center;
+}

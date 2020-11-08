@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+}
+
+.topBox{
+    margin: 10px auto 0;
+    width: 500px;
+    background-color: rgb(39, 247, 247);
+    height: 120px;
+    outline: 1px dashed red;
+}
+.mediumBox{
+    margin: 10px auto 0;
+    width: 500px;
+    background-color: rgb(255, 251, 34);
+    height: 120px;
+    outline: 1px dotted red;
+}
+.twoMediumBox{
+    margin: 20px auto;
+    width: 500px;
+    background-color: rgb(39, 247, 247);
+    height: 120px;
+    outline: 10px outset blue;
+}
+.bottomBox{
+    margin: 10px auto 0;
+    width: 500px;
+    background-color: rgb(39, 247, 247);
+    height: 120px;
+    border-left: 5px solid black;
+}

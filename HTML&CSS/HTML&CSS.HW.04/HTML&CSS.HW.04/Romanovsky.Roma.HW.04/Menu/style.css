@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 247, 193);
+}
+
+.container {
+    background-color: white; 
+    width: 85%;
+    margin: 0 auto;
+    min-height: 150px;
+    box-shadow: 0px -1px 7px 4px rgba(0, 0, 0, 0.44);
+}
+
+.header {
+    height: 150px;
+    background-image: radial-gradient(#e6f8f9, #5959ff);
+}
+.nav { 
+    height: 50px;
+    box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    }
+    
+.menuLink {
+    display: block;
+    width: 150px;
+    height: 35px;
+    line-height: 34px;
+    background-image: linear-gradient(to top, rgb(173, 172, 172), rgb(231, 231, 231));
+    box-shadow: 0px -1px 7px 4px rgba(0, 0, 0, 0.44);
+    border-radius: 7px;
+    margin: 0 2%;
+    transition-duration: 0.6s;
+    transition-property: transform, background-image;
+    text-align: center;
+}
+.menuLink a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px -2px 2px #252525d1;  
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuLink:hover {
+    text-shadow: 1px -1px 2px #252525d1;
+    background-image: linear-gradient(to top, rgb(231, 231, 231), rgb(173, 172, 172));
+    box-shadow: 0px -1px 7px 4px rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+}
+.submenu {
+    display: none;
+}
+.menuLink:hover .submenu:hover {
+    background-image: linear-gradient(to top, rgb(190, 190, 190), rgb(136, 136, 136));
+}
+.nav li {
+    list-style: none;
+}
+
+.menuLink:hover .submenu {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px -2px 2px #252525d1;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(231, 231, 231), rgb(173, 172, 172));
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
+}
+.menuLink:hover .submenu.radTop {
+    border-top-right-radius: 7px;
+}
+.menuLink:hover .submenu.radBottom {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.menuLink:hover.radBottomNone {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
